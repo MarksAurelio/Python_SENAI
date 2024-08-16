@@ -13,3 +13,4 @@
 | git log | verifica historico de commit |
 | git checkout -b nome da branch | cria e muda de branch
 | git checkout nome da branch | muda de um branch para outra
+| git add . | adiciona e atualiza a branch main (principal)
