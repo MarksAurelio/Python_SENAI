@@ -1,4 +1,4 @@
-# Curso de Python
+# Curso de Python verspertino de 80h
 
 curso de capacitação python ofertado pelo programa inovatech em parceria com o SENAI.
 
