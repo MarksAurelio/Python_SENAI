@@ -11,3 +11,5 @@
 | git config --list | lista de configuracoes git |
 | git commit -m "descricao do commit" | cria um ponto de restauracao do projeto
 | git log | verifica historico de commit |
+| git checkout -b nome da branch | cria e muda de branch
+| git checkout nome da branch | muda de um branch para outra
