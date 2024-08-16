@@ -13,10 +13,10 @@
 | git log | verifica historico de commit |
 | git checkout -b nome da branch | cria e muda de branch
 | git checkout nome da branch | muda de um branch para outra
-<<<<<<< HEAD
 | git branch | muda entre as branch's
 | git merge | anexa uma branch ao branch main (principal)
-
-=======
-| git add . | adiciona e atualiza a branch main (principal)
->>>>>>> github
+| git branch -d 'nome da branch | deleta comparando se tudo está de acordo
+| git branch -D 'nome da branch | deleta ignorando tudo
+| git remote add origin https://github.com/MarksAurelio/python.git | vincular ao seu Github
+| git push -u origin main | empurra seu projeto para o Github
+| |
