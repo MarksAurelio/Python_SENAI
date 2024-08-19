@@ -19,4 +19,4 @@
 | git branch -D 'nome da branch | deleta ignorando tudo
 | git remote add origin https://github.com/MarksAurelio/python.git | vincular ao seu Github
 | git push -u origin main | empurra seu projeto para o Github
-| |
+| git clone https://github.com/MarksAurelio/python.git | clona repositorio do site Github
