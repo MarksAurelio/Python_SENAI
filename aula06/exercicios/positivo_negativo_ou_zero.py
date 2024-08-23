@@ -3,9 +3,9 @@
 
 numero = float(input('Digite um número: \n'))
 
-if numero % 2 == 0:
+if numero > 0:
     print('Número positivo')
-elif numero % 2 == 1:
+elif numero < 0:
     print('Número negativo')
 else:
     print('Número igual a 0')

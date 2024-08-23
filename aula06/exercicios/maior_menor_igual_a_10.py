@@ -6,5 +6,5 @@ if numero1 > 10:
     print('Esse número é maior que 10')
 elif numero1 < 10:
     print('Esse número é menor que 10')
-elif numero1 == 10:
+else:
     print('Esse número é igual a 10')

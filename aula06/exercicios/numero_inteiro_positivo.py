@@ -6,5 +6,5 @@ numero = int(input('Digite um número inteiro e positivo: \n'))
 if numero > 0:
     for numero in range(1, numero + 1): 
         print(numero)
-else:
-    ('Esse número não está de acordo com o solicitado')
+elif numero < 0:
+    print('Esse número não é positivo')
