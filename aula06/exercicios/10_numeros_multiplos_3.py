@@ -1,16 +1,13 @@
 # 64. Crie uma lista com 10 números aleatórios 
 # e exiba apenas os números que são múltiplos de 3.
 
-import random
+lista = []
 
-numerosAleatorios = [random.randint(1, 100) for _ in range(10)]
-
-print('Lista de números aleatórios:')
-print(numerosAleatorios)
-
-print("\nMúltiplos de 3 na lista:")
-for numero in numerosAleatorios:
+for i in range(10):
+    numero = int(input(f'Digite o {i+1} número: '))
     if numero % 3 == 0:
-        print(numero)
+        lista.append(numero)
+print('Os números múltiplos de 3 são: ', end='')
+for i in lista:
+    print(i, ' ', end='' )
 
-     

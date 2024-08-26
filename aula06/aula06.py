@@ -88,17 +88,17 @@
 
 # While em português Enquanto
 
-# numero = None
+numero = None
 
-# while numero != 0:
-#     numero = int(input('Informe o número '))
+while numero != 0:
+    numero = int(input('Informe o número '))
 
-# contador = 1
-# numero = input('Informe o número ')
+contador = 1
+numero = input('Informe o número ')
 
-# while contador < 10:
-#     print(numero * 2)
-#     contador +=1
+while contador < 10:
+    print(numero * 2)
+    contador +=1
 
 numero = 10
 while True:
