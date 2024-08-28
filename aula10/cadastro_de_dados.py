@@ -22,9 +22,9 @@ def cadastrar_nome():
 
 def atualizacao_nome():
     nome_anterior = input('Qual o nome para atualização? ')
-    novo_nome = input('Qual o novo nome: ')
     if nome_anterior in cadastro_de_nomes:
         relacao_de_nomes = cadastro_de_nomes.index(nome_anterior)
+        novo_nome = input('Qual o novo nome: ')
         cadastro_de_nomes[relacao_de_nomes] = novo_nome
         print('Novo nome atualizado com sucesso!')
     else:
@@ -40,7 +40,7 @@ def exclusao_nome():
 
 def lista_dos_nomes():
     if not cadastro_de_nomes:
-        print('Nesta lista não há nomes cadastrados.')
+        print('Nesta lista não há nomes cadastrados!')
     else:
         print('Lista:')
         for nome in cadastro_de_nomes:
@@ -57,7 +57,7 @@ while True:
     elif pergunta == 4:
         lista_dos_nomes()
     else:
-        print('Essa opção não é válida. Por favor, escolha outra opção')
+        print('Essa opção não é válida. Por favor, escolha outra opção.')
         break
 
     para_continuar = input('Gostaria de realizar outra operação? (s/n): ')
