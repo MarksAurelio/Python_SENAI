@@ -10,8 +10,6 @@ def menu():
         else:
             print('Opção inválida')
             
-        
-            
 
 def game():
     jogada = 0

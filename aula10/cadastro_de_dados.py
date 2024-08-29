@@ -24,7 +24,7 @@ def atualizacao_nome():
     nome_anterior = input('Qual o nome para atualização? ')
     if nome_anterior in cadastro_de_nomes:
         relacao_de_nomes = cadastro_de_nomes.index(nome_anterior)
-        novo_nome = input('Qual o novo nome: ')
+        novo_nome = input('Qual o novo nome? ')
         cadastro_de_nomes[relacao_de_nomes] = novo_nome
         print('Novo nome atualizado com sucesso!')
     else:
@@ -43,8 +43,8 @@ def lista_dos_nomes():
         print('Nesta lista não há nomes cadastrados!')
     else:
         print('Lista:')
-        for nome in cadastro_de_nomes:
-            print(nome)
+        for indice, nome in enumerate(cadastro_de_nomes):
+            print(f'{indice} - {nome}')
 
 while True:
     pergunta = menu_de_cadastro()
