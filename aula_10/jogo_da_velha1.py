@@ -13,8 +13,8 @@ while vencedor == False:
 
     jvf.desenhar_tabuleiro()
 
-    jogador = jvf.verifica_vitoria(jogador)
-    vencedor = jvf.troca_jogador()
+    jogador = jvf.troca_jogador(jogador)
+    vencedor = jvf.verifica_vitoria()
 
 jogador = jvf.troca_jogador(jogador)
 print(f'O jogador "{jogador}" venceu')
