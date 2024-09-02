@@ -20,3 +20,11 @@
 | git remote add origin https://github.com/MarksAurelio/python.git | vincular ao seu Github
 | git push -u origin main | empurra seu projeto para o Github
 | git clone https://github.com/MarksAurelio/python.git | clona repositorio do site Github
+| pip install | instalador de módulos no vscode
+| python3 -m venv | gerenciador de ambiente virtuais e criar diretórios
+| .gitignore | diretório criado para ignorar quando versionar no Github
+| gitignore.io | dizer ao Git quais arquivos o sistema de controle de versão deve ignorar 
+| pip freeze > Requirements.txt | criar diretório 
+| pip install -r Requirements.txt | instala o comandos de outro ambiente
+| git pull | atualiza seu repositório local do que está no Github
+| autopep8 | extensão corretora do vscode que auxilia na detecção de códigos sujos seguindo o código pep8 de boas maneiras de uso do Python
