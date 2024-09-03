@@ -6,7 +6,8 @@ for i in range(10):
    numero = int(input('Digite um número: \n'))
    if numero % 2 == 0:
        numeros_pares.append(numero)
-       print('Os números pares digitados foram', numeros_pares)
+       
+print('Os números pares digitados foram', numeros_pares)
 
 
         
