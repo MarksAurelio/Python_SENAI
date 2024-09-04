@@ -8,4 +8,3 @@ if mododeTransporte == 'bicicleta':
     print('O percurso de bicicleta é 25 km/h')
 if mododeTransporte == 'a pé':
     print('O percurso a pé é 3,6 km/h')
-

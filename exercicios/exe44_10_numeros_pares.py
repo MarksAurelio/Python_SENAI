@@ -8,6 +8,4 @@ for i in range(10):
        numeros_pares.append(numero)
        
 print('Os números pares digitados foram', numeros_pares)
-
-
-        
+ 

@@ -8,4 +8,3 @@ numero5 = int(input('Digite o quinta número: \n'))
 
 soma = numero1 + numero2 + numero3 + numero4 + numero5
 print(soma)
-

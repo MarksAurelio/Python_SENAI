@@ -8,4 +8,3 @@ if (numero1 < 0 or numero2 < 0 or numero3 < 0):
     print('Um ou mais números é negativo')
 else:
     print('Todos os números são positivos')
-

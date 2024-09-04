@@ -7,3 +7,4 @@ contador = 1
 while contador <= quantidade:
     print('Eu sou programador')
     contador += 1
+    

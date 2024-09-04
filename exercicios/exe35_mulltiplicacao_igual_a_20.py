@@ -10,4 +10,4 @@ if multiplicacao == 20:
     print('A multiplicação de ambos os números é igual a 20')
 else:
     print('A multiplicação de ambos os números não é igual a 20')
-                    
+            

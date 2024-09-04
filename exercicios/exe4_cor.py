@@ -13,4 +13,5 @@ if cores == azul:
     print('azul')
 else:
     print('Essa cor não faz parte da relação apresentada')
+    
 

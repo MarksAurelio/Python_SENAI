@@ -7,3 +7,4 @@ if numero == 3:
     print('Número é igual a 3')
 else:
     print('Número não é igual a 3')
+    

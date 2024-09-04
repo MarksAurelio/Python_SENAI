@@ -9,3 +9,4 @@ elif numero < 0:
     print('Número negativo')
 else:
     print('Número igual a 0')
+    

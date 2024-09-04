@@ -6,4 +6,3 @@ mensagem = 'Eu gosto de codificar'
 
 for i in range(numero_repeticoes):
     print(mensagem)
-

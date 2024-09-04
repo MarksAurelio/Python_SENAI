@@ -5,5 +5,3 @@ while numero != 0:
    numero = int(input('Digite um número: \n'))
    soma += numero
    print('A soma dos números é' , soma)
-
-

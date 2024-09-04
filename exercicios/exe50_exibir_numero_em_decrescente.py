@@ -5,3 +5,4 @@ numero = int(input('Digite um número: \n'))
 if numero > 0:
     for i in range(numero, 0, -1):
         print(i)
+        

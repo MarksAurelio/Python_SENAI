@@ -18,3 +18,4 @@ if diaDaSemana == 7:
     print('Sábado') 
 else:
     print('Esse número não faz parte dos números solicitados')
+    

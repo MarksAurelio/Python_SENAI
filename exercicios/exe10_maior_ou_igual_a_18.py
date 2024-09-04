@@ -7,3 +7,4 @@ if idade >= 18:
 else:
     print('Idade menor que 18')
     
+    

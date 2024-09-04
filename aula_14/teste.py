@@ -28,3 +28,4 @@ print(numeros[1])
 
 for a, b, c in numeros:
     print(a, b, c)
+    

@@ -4,4 +4,3 @@ celsius = float(input('Digite uma temperatura em Celsius \n'))
 
 fahrenheit = (1.8 * celsius) + 32
 print('A temperatura em Fahrenheit é,', fahrenheit)
-

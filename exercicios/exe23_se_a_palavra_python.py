@@ -7,3 +7,4 @@ if palavra == "python":
     print('Você digitou a palavra Python')
 else:
     print('Você não digitou a palavra Python')
+    

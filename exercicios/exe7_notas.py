@@ -8,4 +8,3 @@ if nota >= 7 <= 8:
     print('nota Média')
 if nota >= 8 <= 10:
     print('nota Alta')
-

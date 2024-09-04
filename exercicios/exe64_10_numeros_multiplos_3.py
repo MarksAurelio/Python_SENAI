@@ -10,4 +10,3 @@ for i in range(10):
 print('Os números múltiplos de 3 são: ', end='')
 for i in lista:
     print(i, ' ', end='' )
-

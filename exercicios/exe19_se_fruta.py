@@ -6,3 +6,4 @@ if fruta == 'maça':
     print('Esta fruta é maça')
 else:
     print('Esta fruta não é maça')
+    

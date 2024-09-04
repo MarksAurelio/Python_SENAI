@@ -6,3 +6,4 @@ if idade >= 13 and idade <= 17:
     print('Essa pessoa é adolescente')
 else:
     print('Essa pessoa não é adolescente')
+    

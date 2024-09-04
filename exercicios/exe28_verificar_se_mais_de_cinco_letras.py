@@ -8,3 +8,4 @@ if numeroLetras > 5:
     print('A palavra', palavra, 'tem mais de 5 letras')
 else:
     print('A palavra', palavra, 'tem menos de 5 letras')
+    

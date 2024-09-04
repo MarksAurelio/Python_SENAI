@@ -18,3 +18,4 @@ while vencedor == False:
 
 jogador = jvf.troca_jogador(jogador)
 print(f'O jogador "{jogador}" venceu')
+

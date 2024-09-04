@@ -17,3 +17,4 @@ def atualiza_nome(nome, novo_nome):
 
 def exclui_nome(nome):
     nomes.remove(nome)
+    

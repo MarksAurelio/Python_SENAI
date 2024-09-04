@@ -8,4 +8,3 @@ if numero1 % 5 == 0 and numero2 % 5 == 0:
     print('Ambos são múltiplos de 5')
 else:
     print('Ao menos um número não é múltiplo de 5')
-

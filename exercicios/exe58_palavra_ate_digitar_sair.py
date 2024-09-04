@@ -6,3 +6,4 @@ while palavra != 'sair':
     palavra = str(input('Digite uma palavra: \n'))
 if palavra != 'sair':
     print(f'Você digitou: {palavra}')
+    

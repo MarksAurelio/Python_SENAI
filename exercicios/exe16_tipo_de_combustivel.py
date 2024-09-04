@@ -14,4 +14,3 @@ elif combustivel == disel:
     print('O litro do Disel R$ 3,99')
 else:
     print('Item não está na lista de combustivéis')
-

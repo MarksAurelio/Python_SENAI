@@ -63,3 +63,4 @@ while True:
     para_continuar = input('Gostaria de realizar outra operação? (s/n): ')
     if para_continuar.lower() != 's':
         break
+    

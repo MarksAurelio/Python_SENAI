@@ -10,3 +10,4 @@ for i in range(3):
 print('lista de nomes: ')
 for nome in lista:
     print(nome)
+    
