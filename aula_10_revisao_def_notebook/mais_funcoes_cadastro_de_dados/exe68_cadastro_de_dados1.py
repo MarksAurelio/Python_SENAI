@@ -10,27 +10,37 @@
 # Ao listar todos os alunos mostre cada um de forma organizada e separada.
 # Crie uma funcionalidade de mostre os dados de um aluno especifico usando apenas de sua matricula para isso.
 
+from os import system
+import mais_funcoes_operacoes as mfo
+# from operacoes import menu, listar_nomes
+# import operações
+
 operacao = 'sim'
+matricula = 0
 
 while operacao == 'sim':
-    op.menu()
+    mfo.menu()
     opcao = int(input('Informe a ação desejada: '))
 
     match opcao:
         case 1:
             nome = input('que nome deseja cadastrar? ')
-            op.cadastrar_nome(nome)
+            email = input('Qual é o email do aluno: ')
+            data_nascimento = input('Informe a data de nascimento: ')
+
+            matricula += 1
+            mfo.cadastrar_nome(nome, email, data_nascimento, matricula)
         case 2:
             nome = input('Que nome deseja atualizar? ')
             novo_nome = input('Qual será o novo nome: ')
 
-            op.atualiza_nome(nome, novo_nome)
+            mfo.atualiza_nome(nome, novo_nome)
 
         case 3:
             nome = input('Que nome deseja remover? ')
-            op.exclui_nome(nome)
+            mfo.exclui_nome(nome)
         case 4:
-            op.listar_nomes()
+            mfo.listar_nomes()
         case _:
             print('opção inválida')
 
@@ -39,3 +49,7 @@ while operacao == 'sim':
 
     if operacao != 'sim':
          break
+
+
+
+

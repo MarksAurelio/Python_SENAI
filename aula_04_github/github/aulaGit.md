@@ -28,3 +28,4 @@
 | pip install -r Requirements.txt | instala o comandos de outro ambiente
 | git pull | atualiza seu repositório local do que está no Github
 | autopep8 | extensão corretora do vscode que auxilia na detecção de códigos sujos seguindo o código pep8 de boas maneiras de uso do Python
+| source venv | abre diretório no ambiente virtual
