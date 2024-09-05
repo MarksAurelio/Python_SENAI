@@ -1,4 +1,5 @@
-# 4. Crie um algoritmo que solicite ao usuário uma cor (vermelho, verde, azul) e exiba uma mensagem correspondente à cor escolhida.
+# 4. Crie um algoritmo que solicite ao usuário uma cor (vermelho, verde, azul) 
+# e exiba uma mensagem correspondente à cor escolhida.
 
 vermelho = 'vermelho'
 verde = 'verde'
@@ -14,4 +15,3 @@ if cores == azul:
 else:
     print('Essa cor não faz parte da relação apresentada')
     
-

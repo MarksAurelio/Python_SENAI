@@ -1,4 +1,5 @@
-# 45. Escreva um algoritmo que peça ao usuário para inserir 5 números e, ao final, exiba o maior número inserido.
+# 45. Escreva um algoritmo que peça ao usuário para inserir 5 números 
+# e, ao final, exiba o maior número inserido.
 
 # numero1 = int(input('Digite o primeiro número: \n'))
 # numero2 = int(input('Digite o segundo número: \n'))

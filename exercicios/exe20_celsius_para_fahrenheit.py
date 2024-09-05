@@ -1,4 +1,5 @@
-# 20. Crie um programa que solicite ao usuário a temperatura em graus Celsius e converta para Fahrenheit.
+# 20. Crie um programa que solicite ao usuário a temperatura em graus Celsius 
+# e converta para Fahrenheit.
 
 celsius = float(input('Digite uma temperatura em Celsius \n'))
 

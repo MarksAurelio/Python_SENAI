@@ -1,4 +1,5 @@
-# 18. Faça um programa que peça ao usuário três números e verifique se todos são positivos.
+# 18. Faça um programa que peça ao usuário três números 
+# e verifique se todos são positivos.
 
 numero1 = int(input('Digite o primeiro número: \n'))
 numero2 = int(input('Digite o segundo número: \n'))

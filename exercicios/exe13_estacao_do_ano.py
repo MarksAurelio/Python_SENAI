@@ -1,4 +1,5 @@
-# 13. Crie um algoritmo que solicite ao usuário um mês do ano (1 a 12) e exiba a estação do ano correspondente
+# 13. Crie um algoritmo que solicite ao usuário um mês do ano (1 a 12) 
+# e exiba a estação do ano correspondente
 
 mesdoAno = int(input('Digite um mês do ano de 1 a 12: \n'))
 if mesdoAno >= 3 and mesdoAno <= 6:

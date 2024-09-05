@@ -5,6 +5,7 @@ def menu():
 
     for indice, opcao in enumerate(opcoes):
         print(f'{indice +1} - {opcao}')
+        
 def listar_nomes():
     for indice, opcao in enumerate(nomes):
         print(f'{indice +1} - {opcao}')

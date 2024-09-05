@@ -1,4 +1,4 @@
-#  Desenvolva um algoritmo que peça ao usuário para inserir dois números 
+# 26. Desenvolva um algoritmo que peça ao usuário para inserir dois números 
 # e verifique se ambos são múltiplos de 5.
 
 numero1 = int(input('Digite o primeiro número: \n'))

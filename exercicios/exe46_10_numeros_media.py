@@ -8,4 +8,3 @@ for i in range(10):
 
 media = soma / 10
 print(f'A média dos números é {media}')
-

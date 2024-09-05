@@ -1,4 +1,6 @@
-# 16. Desenvolva um programa que peça ao usuário um tipo de combustível (gasolina, etanol, diesel) e exiba o preço correspondente por litro
+# 16. Desenvolva um programa que peça ao usuário um tipo de combustível 
+# (gasolina, etanol, diesel) 
+# e exiba o preço correspondente por litro
 
 combustivel = str(input('Escolha o tipo de combustível gasolina, etanol ou disel: \n'))
 
@@ -14,3 +16,4 @@ elif combustivel == disel:
     print('O litro do Disel R$ 3,99')
 else:
     print('Item não está na lista de combustivéis')
+
